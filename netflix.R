@@ -57,7 +57,7 @@ mynetflix_serie %>%
   ggtitle("Episodes per day") +
   labs(x = "Date", y = "Watched Eps")
 
-# Calendar heatmap
+# Calendar heatmap -  2nd plot
 mynetflix_serie %>%
   count(Date) %>%
   arrange(Date) %>%
